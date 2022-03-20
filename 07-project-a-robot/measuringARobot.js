@@ -1,7 +1,6 @@
 import * as aRobot from './aRobot.js';
 
 function compareRobots(robot1, memory1, robot2, memory2) {
-
     let steps1 = 0, steps2 = 0;
     for (let i = 0; i < 100; i++) {
         let state = aRobot.VillageState.random();
